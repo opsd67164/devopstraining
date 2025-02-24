@@ -1,1 +1,2 @@
 This file is created for git training
+Learning is important
