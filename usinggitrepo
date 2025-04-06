@@ -1,1 +1,10 @@
-echo "Welcome to your first Jenkins Pipeline, Congrats"
+pipeline {
+    agent any 
+    stages {
+        stage('Using Git') { 
+            steps{
+                echo "Welcome to your first Jenkins Pipeline, Congrats"
+            }
+        }
+    }
+}
